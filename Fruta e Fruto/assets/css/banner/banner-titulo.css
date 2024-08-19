@@ -1,0 +1,15 @@
+.banner__titulo{
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    font-size: 5.0625rem;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+    /* Estamos dando posição absoluta para sobrepor qualquer elemento */
+    position: absolute;
+    /* estamos determinando posição direita e topo */
+    top: 50%;
+    text-align: center;
+    /* para alinhar texto dentro da imagem temos que dar o transform e depois colocar o banner em position relativa */
+    width: 100%;
+}
