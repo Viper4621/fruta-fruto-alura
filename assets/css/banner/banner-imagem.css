@@ -1,0 +1,22 @@
+.banner__imagem{
+    background-image: url('../../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* para exibir a imagem no tamanho total da pagina mas desconsiderando o tamanho do banner */
+    width: 100%;
+    
+}
+
+@media screen and (min-width:0){
+    /* 51 px devido ao tamanho do cabelha quando responsivo telas menores */
+    .banner__imagem{
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width:768px){
+    .banner__imagem{
+        height: calc(100vh - 72px);
+    }
+}

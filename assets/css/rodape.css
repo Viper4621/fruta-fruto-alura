@@ -1,0 +1,38 @@
+.rodape{
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+}
+
+.email__contato{
+    text-decoration: none;
+    color: red;
+}
+
+.email__contato:visited{
+    text-decoration: none;
+    color: red
+}
+
+.email__contato:hover{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width:0){
+    .rodape{
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .rodape{
+        text-align: right;
+    }
+}
